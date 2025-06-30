@@ -1,0 +1,137 @@
+[
+  {
+    "ContainingType": "Stopalavras.Controllers.CronometroController",
+    "Method": "ObterCronometro",
+    "RelativePath": "api/Cronometro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Stopalavras.Models.Cronometro, Stopalavras, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Stopalavras.Controllers.CronometroController",
+    "Method": "AtualizarCronometro",
+    "RelativePath": "api/Cronometro",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cronometro",
+        "Type": "Stopalavras.Models.Cronometro",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stopalavras.Controllers.TemaController",
+    "Method": "ObterTemas",
+    "RelativePath": "api/Tema",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Stopalavras.Models.Tema, Stopalavras, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Stopalavras.Controllers.TemaController",
+    "Method": "InserirTema",
+    "RelativePath": "api/Tema",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tema",
+        "Type": "Stopalavras.Models.Tema",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stopalavras.Controllers.TemaController",
+    "Method": "ObterTemaPorId",
+    "RelativePath": "api/Tema/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Stopalavras.Models.Tema",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Stopalavras.Controllers.TemaController",
+    "Method": "AtualizarTema",
+    "RelativePath": "api/Tema/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tema",
+        "Type": "Stopalavras.Models.Tema",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Stopalavras.Controllers.TemaController",
+    "Method": "ExcluirDeletarTema",
+    "RelativePath": "api/Tema/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

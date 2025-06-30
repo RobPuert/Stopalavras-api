@@ -1,0 +1,6 @@
+@Stopalavras_HostAddress = http://localhost:5082
+
+GET {{Stopalavras_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

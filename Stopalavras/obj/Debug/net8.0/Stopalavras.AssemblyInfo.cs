@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Stopalavras")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfff729fc2d66c8067af7e7caf68894908543773")]
 [assembly: System.Reflection.AssemblyProductAttribute("Stopalavras")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Stopalavras")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
